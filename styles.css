@@ -1,0 +1,76 @@
+*
+{
+    margin: 0ex;
+    padding: 0ex;
+}
+.topnav {
+    background-color: crimson;
+    overflow: hidden;
+  }
+  h1
+  {
+      color: white;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:white;
+    color:crimson;
+  }
+  .home
+  {
+      background-image: url(banner.jpg) ;
+      background-repeat: no-repeat;
+
+  }
+  .anim-typewriter
+  {
+    animation:typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+
+  }
+  .JS
+  {
+    animation:typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+
+  }
+  @keyframes typewriter
+  {
+    from{
+      width: 0;
+    }
+ to
+ {
+   width: 16em;
+ }
+  }
+  @keyframes blinkTextCursor
+  {
+    from
+    {
+      border-right-color: crimson;
+    }
+    to
+    {
+      border-right-color: transparent;
+
+    }
+  }
+ 
